@@ -1,94 +1,95 @@
-- title: Why Terraform
-  icon: question
+- title: Introduction
+  icon: sign-in
   description: |
-    How DevOps is transforming the way we run software; an overview of infrastructure as code tools, including
-    configuration management, server templating, orchestration, and provisioning tools; the benefits of infrastructure as
-    code; a comparison of Terraform, Chef, Puppet, Ansible, SaltStack, OpenStack Heat, and CloudFormation; how to combine
-    tools such as Terraform, Packer, Docker, Ansible, and Kubernetes.
+    A quick introduction to Docker, what it is, and how a Docker-based workflow can be user to improve multiple stages
+    in the DevOps software delivery pipeline.
 
-- title: Terraform Syntax
-  icon: code
+- title: The Docker Landscape
+  icon: newspaper-o
   description: |
-    Installing Terraform; an overview of Terraform syntax; an overview of the Terraform CLI tool; how to deploy a single
-    server; how to deploy a web server; how to deploy a cluster of web servers; how to deploy a load balancer; how to
-    clean up resources you've created.
+    A much deeper dive into the Docker ecosystem and the many concepts that containers bring into modern
+    platform design and application development.
 
-- title: Terraform state
-  icon: database
+- title: Installing Docker
+  icon: keyboard-o
   description: |
-    What Terraform state is; how to store state so that multiple team members can access it; how to lock state files to
-    prevent race conditions; how to isolate state files to limit the damage from errors; how to use Terraform workspaces;
-    a best-practices file and folder layout for Terraform projects; how to use read-only state.
+    Covers multiple approaches to installing Docker on Linux (multiple distributions), macOS, and Windows, including Docker Desktop,
+    Community edition, Vagrant, and more.
 
-- title: Terraform modules
-  icon: archive
+- title: Working w/ Docker Images
+  icon: plus-square-o
   description: |
-    What modules are; how to create a basic module; how to make a module configurable with inputs and outputs; local
-    values; versioned modules; module gotchas; using modules to define reusable, configurable pieces of infrastructure.
+    Dive into the details of building container images with Docker. This section will help you understand how to create
+    <em>Dockerfile</em>s, package your application into an image for one or more architectures, optimize the images for
+    size and build speeds, and much more.
 
-- title: "Terraform tips & tricks"
-  icon: magic
+- title: Working with Containers
+  icon: caret-square-o-down
   description: |
-    Loops with the <code>count</code> parameter, <code>for_each</code> and <code>for</code> expressions, and the
-    <code>for</code> string directive; conditionals with the <code>count</code> parameter, <code>for_each</code> and
-    <code>for</code> expressions, and the <code>if</code> string directive; built-in functions;
-    zero-downtime deployment; common Terraform gotchas and pitfalls, including count and for_each limitations,
-    zero-downtime deployment gotchas, how valid plans can fail, how to refactor Terraform code safely, and what to do
-    about eventual consistency.
+    Provides an overview of the basics of working with both Linux and Windows containers. Also covers the storage and
+    resource management options that are available for application management.
 
-- title: Managing secrets with Terraform
-  icon: lock
+- title: Exploring Docker
+  icon: compass
   description: |
-    An introduction to secrets management; a comparison of common secret management tools such as HashiCorp Vault,
-    AWS Secrets Manager and Azure Key Vault; how to manage secrets when working with providers, including authentication
-    via environment variables, IAM roles, and OIDC; how to manage secrets when working with resources and data sources,
-    including how to use environment variables, encrypted files, and centralized secret stores; how to securely handle
-    state files and plan files.
+    An overview of the techniques that can be used to gather information from you containers. This include logs,
+    resource usage statistics, system events, health checks, and more.
 
-- title: Working with multiple providers
-  icon: files-o
+- title: Debugging Containers
+  icon: bullseye
   description: |
-    A closer look at how Terraform providers work, including how to install them, how to control the version, and how to
-    use them in your code; how to use multiple copies of the same provider, including how to deploy to multiple AWS
-    regions, how to deploy to multiple AWS accounts, and how to build reusable modules that can use multiple providers;
-    how to use multiple different providers together, including a discussion of multi-cloud, and an example of using
-    Terraform to run a Kubernetes cluster (EKS) in AWS and deploy Dockerized apps into the cluster.
+    A deep dive into how images and containers work in Linux and all of the information that you can gather to
+    understand how your applications are assembled and working.
 
-- title: Production-grade Terraform code
-  icon: rocket
+- title: Exploring Docker Compose
+  icon: pencil-square-o
   description: |
-    Why DevOps projects always take longer than you expect; the production-grade infrastructure checklist; how to build
-    Terraform modules for production; small modules; composable modules; testable modules; releasable modules; Terraform
-    Registry; variable validation; versioning Terraform, Terraform providers, Terraform modules, and Terragrunt;
-    Terraform escape hatches.
+    A practical exploration of Docker Compose and how it can be used to reliably spin-up complex, multi-containers environments
+    for local development and testing.
 
-- title: How to test Terraform code
-  icon: list
+- title: To Production Containers
+  icon: road
   description: |
-    Manual tests for Terraform code; sandbox environments and cleanup; automated tests for Terraform code; Terratest;
-    unit tests; integration tests; end-to-end tests; dependency injection; running tests in parallel; test stages;
-    retries; the test pyramid; static analysis; plan testing; server testing.
+    A broad overview of many of the concepts that are important to running containers in production.
 
-- title: Using Terraform as a team
-  icon: users
+- title: Containers at Scale
+  icon: bar-chart
   description: |
-    How to adopt Terraform as a team; how to convince your boss; a workflow for deploying application code; a workflow for
-    deploying infrastructure code; version control; the golden rule of Terraform; code reviews; coding guidelines;
-    Terraform style; CI/CD for Terraform; the deployment process.
+    An exploration of a few options for running containers in production. This include Docker swarm-mode, Kubernetes,
+    and AWS ECS Fargate.
+
+- title: Advanced Topics
+  icon: level-up
+  description: |
+    A deep dive into Linux control group, namespaces, security, networking, and storage.
+
+- title: The Future of Docker
+  icon: clock-o
+  description: |
+    A short discussion about Docker's place in the modern ecosystem and a review of some of the alternative tools that
+    that user's might find useful supplements to their workflows.
+
+- title: Container Platform Design
+  icon: image
+  description: |
+    An overview of both the 12-Factor App and the Reactive Manifesto and how these important articles relate to 
+    designing applications for Linux containers.
+
+- title: Conclusion
+  icon: sign-out
+  description: |
+    A recap of the benefits that Docker and Linux containers provide for modern application and platform development.
 
 - title: Code samples
   icon: github
   skip_chapter: true
   description: |
-    The book includes dozens of code samples. You can find the code here:
-    <a href="https://github.com/brikis98/terraform-up-and-running-code" target="_blank" class="tracked" data-trk="click-code-examples-outline-section">https://github.com/brikis98/terraform-up-and-running-code</a>.
+    The book includes hands on examples. <p>You can find the longer code samples here:
+    <a href="https://github.com/bluewhalebook/docker-up-and-running-3rd-edition" target="_blank" class="tracked" data-trk="click-code-examples-outline-section">https://github.com/bluewhalebook/docker-up-and-running-3rd-edition</a>.</p>
 
 - title: Third edition
   icon: refresh
   skip_chapter: true
   description: |
-    The book is now in its 3rd edition, which adds over 100 pages of new content, including two completely new chapters
-    (Managing Secrets with Terraform and Working with Multiple Providers), and major updates to all the original
-    chapters. Check out the
-    <a href="https://blog.gruntwork.io/terraform-up-running-3rd-edition-early-release-is-now-available-4efd0eb2ce0a" target="_blank">3rd edition announcement blog post</a>
-    for the details on what changed!
+    The book is now in its 3rd edition, which includes one completely new chapter, 3 important new sections
+    (buildkit, buildx, and rootless containers), and major updates to all of the original chapters.

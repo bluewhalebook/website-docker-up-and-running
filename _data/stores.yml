@@ -1,40 +1,40 @@
 - id: "amazon"
   name: "Amazon"
-  url: "https://www.amazon.com/Terraform-Running-Writing-Infrastructure-Code-dp-1098116747/dp/1098116747"
+  url: "https://amzn.to/3HdohgK"
   image: "amazon-small.png"
   value: 20
 - id: "barnes-noble"
   name: "Barnes & Noble"
-  url: "https://www.barnesandnoble.com/w/terraform-yevgeniy-brikman/1125298641"
+  url: "https://www.barnesandnoble.com/w/docker-sean-p-kane/1128580874"
   image: "barnes-noble-small.png"
   value: 20
 - id: "oreilly"
   name: "O'Reilly"
-  url: "https://www.oreilly.com/library/view/terraform-up-and/9781098116736/"
+  url: "https://learning.oreilly.com/library/view/docker-up/9781098131814/"
   image: "oreilly-small.png"
   value: 20
 - id: "target"
   name: "Target"
-  url: "https://www.target.com/p/terraform-up-and-running-3rd-edition-by-yevgeniy-brikman-paperback/-/A-86266702"
+  url: "https://www.target.com/p/docker-up-running-2nd-edition-by-sean-p-kane-karl-matthias-paperback/-/A-83283903"
   image: "target-small.png"
   value: 20
 - id: "apple"
-  name: "Apple iTunes"
-  url: "https://books.apple.com/us/book/terraform-up-and-running/id6443437585"
+  name: "Apple Books"
+  url: "https://books.apple.com/us/book/docker-up-running/id1435967628"
   image: "itunes-logo-small.png"
   value: 20
 - id: "whsmith"
   name: "WHSmith"
-  url: "https://www.whsmith.co.uk/products/terraform-up-and-running-writing-infrastructure-as-code-3rd-ed/yevgeniy-brikman/paperback/9781098116743.html"
+  url: "https://www.whsmith.co.uk/products/docker-up-and-running-shipping-reliable-containers-in-production-2nd-edition/sean-p-kane/karl-matthias/paperback/9781492036739.html"
   image: "wh-smith-logo-small.png"
   value: 20
 - id: "shroff"
   name: "Shroff Publishers (India)"
-  url: "https://www.shroffpublishers.com/books/9789355421821/"
+  url: "https://www.shroffpublishers.com/books/9789352137732/"
   image: "shroff-publishers-small.jpg"
   value: 20
 
-# These were the translations, but only of the 2nd edition:
+# These were the translations, but only of the 2nd edition (Terraform):
 #
 #- id: "jd"
 #  name: "jd.com (Chinese translation)"

@@ -1,184 +1,179 @@
-- id: "3rd-edition-published"
-  url: "#buy-now"
-  title: |
-    <em>Terraform: Up & Running</em>, 3rd edition, has been published!
-  date: "September 26, 2022"
-  image: "terraform-up-and-running-3rd-edition-3d-cover-small.png"
-  description: |
-    <em>Terraform: Up & Running</em>, 3rd edition, has been published! It's available on Amazon, O'Reilly, and at all
-    major bookstores. The 3rd edition adds about 100 pages of new content, including two totally new chapters (one on
-    secrets management with Terraform and one on working with multiple regions, accounts, and clouds, including
-    Kubernetes), plus major updates to all the existing chapters to update the book from Terraform 0.12 to
-    Terraform 1.2.
-  call_to_action: "Get the 3rd edition now!"
+#- id: "3rd-edition-published"
+#  url: "#buy-now"
+#  title: |
+#    <em>Docker: Up & Running</em>, 3rd edition, has been published!
+#  date: "September 26, 2022"
+#  image: "docker-up-and-running-cover-3e-early-release-small.jpg"
+#  description: |
+#    <em>Docker: Up & Running</em>, 3rd edition, has been published! It's available on Amazon, O'Reilly, and at all
+#    major bookstores. The 3rd edition adds about 100 pages of new content, including two totally new chapters (one on
+#    secrets management with Docker and one on working with multiple regions, accounts, and clouds, including
+#    Kubernetes), plus major updates to all the existing chapters to update the book from Docker 0.12 to
+#    Terraform 1.2.
+#  call_to_action: "Get the 3rd edition now!"
 - id: "3rd-edition-early-release"
-  url: "https://www.oreilly.com/library/view/terraform-up-and/9781098116736/"
+  url: "https://learning.oreilly.com/library/view/docker-up/9781098131814/"
   title: |
-    Early release of <em>Terraform: Up & Running</em>, 3rd edition!
-  date: "April 7, 2022"
-  image: "terraform-up-running-3rd-edition-early-release-small.jpeg"
+    Early release of <em>Docker: Up & Running</em>, 3rd edition!
+  date: "October 2022"
+  image: "docker-up-and-running-cover-3e-early-release-small.jpg"
   description: |
-    The early release of <em>Terraform: Up & Running</em>, 3rd edition, is now available! The 3rd edition adds about
-    100 pages of new content, including two totally new chapters (one on secrets management with Terraform and one on
-    working with multiple regions, accounts, and clouds), plus major updates to all the existing chapters. The book has
-    been updated from Terraform 0.12 to Terraform 1.2, covering all the changes in between—including
-    required_providers, the provider lock file, variable validation, sensitive variables, refactoring with moved blocks,
-    module iteration, etc.—and includes new examples of how to do multi-region replication, how to deploy Docker
-    containers in Kubernetes using Terraform and EKS, how to enforce policies on your code using tools such as OPA,
-    and much more. For a full list of the changes, check out the
-    <a href="https://blog.gruntwork.io/terraform-up-running-3rd-edition-early-release-is-now-available-4efd0eb2ce0a">early release announcement blog post</a>.
+    The early release of <em>Docker: Up & Running</em>, 3rd edition, is now available and being frequently updated! The
+    3rd edition, includes one completely new chapter, 3 important new sections (buildkit, buildx, and rootless
+    containers), and major updates to all of the original chapters.
+    The book coverage has been updated from Docker Engine 18.09 to Docker Engine 20.10, covering all the important
+    changes in between.
   call_to_action: "Read the Early Release now!"
-- id: "russian-translation"
-  url: "#buy-now"
-  title: |
-    The Russian translation of "Terraform: Up & Running" 2nd edition is now available!
-  date: "August 12, 2021"
-  image: "russian-cover-small.jpg"
-  description: |
-    The 2nd edition of <em>Terraform: Up & Running</em> has been translated into Russian! You can grab a copy on
-    <a href="https://www.piter.com/collection/bestsellery-oreilly/product/terraform-infrastruktura-na-urovne-koda" target="_blank">piter.com</a> and
-    <a href="https://my-shop.ru/shop/product/4011318.html" target="_blank">myshop.ru</a>.
-  call_to_action: "Buy a copy"
-- id: "chinese-translation"
-  url: "#buy-now"
-  title: |
-    The Chinese translation of "Terraform: Up & Running" 2nd edition is now available!
-  date: "April 7, 2020"
-  image: "chinese-cover-small.png"
-  description: |
-    The 2nd edition of <em>Terraform: Up & Running</em> has been translated into Chinese! You can grab a copy on
-    <a href="https://item.jd.com/12776777.html" target="_blank">jd.com</a> and
-    <a href="http://product.dangdang.com/29171542.html" target="_blank">dangdang.com</a>.
-  call_to_action: "Buy a copy"
-- id: "se-radio-interview"
-  url: "https://www.se-radio.net/2020/04/episode-405-yevgeniy-brikman-on-infrastructure-as-code-best-practices/"
-  title: |
-    SE Radio Interview: Yevgeniy Brikman on Infrastructure as Code Best Practices
-  date: "April 7, 2020"
-  image: "se-radio-interview.png"
-  description: |
-    Check out Yevgeniy Brikman's podcast interview with Software Engineering Radio on Infrastructure as Code best
-    practices. The discussion covers similarities and differences between conventional software engineering and
-    code-driven infrastructure; factoring code into modules; layering; terraform code organization for micro-services;
-    releases and tagging; code reviews; unit testing infrastructure; deployment of infrastructure; ownership and code
-    structure models; and open source and re-usable libraries.
-  call_to_action: "Listen to the podcast!"
-- id: "automated-testing-talk"
-  url: "https://www.infoq.com/presentations/automated-testing-terraform-docker-packer/"
-  title: |
-    Automated Testing for Terraform, Docker, Packer, Kubernetes, and More
-  date: "November 11, 2019"
-  image: "testing-talk-cover-slide-medium.png"
-  description: |
-    This talk from QCon SF is a step-by-step, live-coding class on how to write automated tests for infrastructure
-    code, including the code you write for use with tools such as Terraform, Kubernetes, Docker, and Packer. Topics
-    covered include unit tests, integration tests, end-to-end tests, test parallelism, retries, error handling, static
-    analysis, and more.
-  call_to_action: "Check out the video and slides!"
+#- id: "russian-translation"
+#  url: "#buy-now"
+#  title: |
+#    The Russian translation of "Terraform: Up & Running" 2nd edition is now available!
+#  date: "August 12, 2021"
+#  image: "russian-cover-small.jpg"
+#  description: |
+#    The 2nd edition of <em>Terraform: Up & Running</em> has been translated into Russian! You can grab a copy on
+#    <a href="https://www.piter.com/collection/bestsellery-oreilly/product/terraform-infrastruktura-na-urovne-koda" target="_blank">piter.com</a> and
+#    <a href="https://my-shop.ru/shop/product/4011318.html" target="_blank">myshop.ru</a>.
+#  call_to_action: "Buy a copy"
+#- id: "chinese-translation"
+#  url: "#buy-now"
+#  title: |
+#    The Chinese translation of "Terraform: Up & Running" 2nd edition is now available!
+#  date: "April 7, 2020"
+#  image: "chinese-cover-small.png"
+#  description: |
+#    The 2nd edition of <em>Terraform: Up & Running</em> has been translated into Chinese! You can grab a copy on
+#    <a href="https://item.jd.com/12776777.html" target="_blank">jd.com</a> and
+#    <a href="http://product.dangdang.com/29171542.html" target="_blank">dangdang.com</a>.
+#  call_to_action: "Buy a copy"
+#- id: "se-radio-interview"
+#  url: "https://www.se-radio.net/2020/04/episode-405-yevgeniy-brikman-on-infrastructure-as-code-best-practices/"
+#  title: |
+#    SE Radio Interview: Yevgeniy Brikman on Infrastructure as Code Best Practices
+#  date: "April 7, 2020"
+#  image: "se-radio-interview.png"
+#  description: |
+#    Check out Yevgeniy Brikman's podcast interview with Software Engineering Radio on Infrastructure as Code best
+#    practices. The discussion covers similarities and differences between conventional software engineering and
+#    code-driven infrastructure; factoring code into modules; layering; terraform code organization for micro-services;
+#    releases and tagging; code reviews; unit testing infrastructure; deployment of infrastructure; ownership and code
+#    structure models; and open source and re-usable libraries.
+#  call_to_action: "Listen to the podcast!"
+#- id: "automated-testing-talk"
+#  url: "https://www.infoq.com/presentations/automated-testing-terraform-docker-packer/"
+#  title: |
+#    Automated Testing for Terraform, Docker, Packer, Kubernetes, and More
+#  date: "November 11, 2019"
+#  image: "testing-talk-cover-slide-medium.png"
+#  description: |
+#    This talk from QCon SF is a step-by-step, live-coding class on how to write automated tests for infrastructure
+#    code, including the code you write for use with tools such as Terraform, Kubernetes, Docker, and Packer. Topics
+#    covered include unit tests, integration tests, end-to-end tests, test parallelism, retries, error handling, static
+#    analysis, and more.
+#  call_to_action: "Check out the video and slides!"
 - id: "2nd-edition-published"
   url: "#buy-now"
   title: |
     <em>Terraform: Up & Running</em>, 2nd edition has been published!
-  date: "October 3, 2019"
-  image: "terraform_up&running_2e_cover_medium.png"
+  date: "September 2018"
+  image: "docker-up-and-running-cover-2e-medium.jpg"
   description: |
-    <em>Terraform: Up & Running</em>, 2nd edition, has been published! It's available on Amazon, O'Reilly, and at all
-    major bookstores. The 2nd edition is nearly double the length of the 1st edition (~160 more pages), including two
-    completely new chapters (Production-grade Terraform Code and How to Test Terraform Code), and major changes to all
-    the original chapters and code examples (everything is now updated through Terraform 0.12).
+    <em>Docker: Up & Running</em>, 2nd edition, has been published! It's available on Amazon, O'Reilly, and at all
+    major bookstores. The 2nd edition is about 128 pages longer then the 1st edition, including many new chapters and
+    major updates to all the original chapters and code examples (everything is now updated to Docker Engine 18.09).
   call_to_action: "Get a copy!"
-- id: "2nd-edition-early-release"
-  url: "https://learning.oreilly.com/library/view/terraform-up/9781492046899/"
-  title: |
-    Early release of <em>Terraform: Up & Running</em>, 2nd edition!
-  date: "July 5, 2019"
-  image: "terraform_up&running_2e_cover_early_release_small.png"
-  description: |
-    The early release of <em>Terraform: Up & Running</em>, 2nd edition, is now available! The 2nd edition is nearly
-    double the length of the 1st edition (~160 more pages), including two completely new chapters (Production-grade
-    Terraform Code and How to Test Terraform Code), and major changes to all the original chapters and code examples to
-    take into account 4 major Terraform releases (everything is now updated through Terraform 0.12), the Terraform
-    state revamp (including backends, locking, and workspaces), Terraform providers split, Terraform Registry, HCL2,
-    and much more. Check out Terraform: Up & Running, 2nd edition announcement blog post for all the details!
-  call_to_action: "Read the Early Release now!"
-- id: "korean-translation"
-  url: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=186874171"
-  title: |
-    <em>Terraform: Up & Running</em> has been translated into Korean!
-  date: "April 27, 2019"
-  image: "terraform-up-and-running-cover-korean-small.jpg"
-  description: |
-    <em>Terraform: Up & Running</em> is now available in Korean!
-  call_to_action: "Grab a copy on aladin.co.kr!"
-- id: "lessons-learned-300k-talk"
-  url: "https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1"
-  title: Lessons learned from writing over 300,000 lines of infrastructure code
-  date: "October 24, 2018"
-  image: "lessons-learned-300k.png"
-  description: |
-    This talk from HashiConf 2018 is a concise masterclass on how to write infrastructure code. I share key lessons
-    from the "Infrastructure Cookbook" we developed at Gruntwork while creating and maintaining a library of over
-    300,000 lines of infrastructure code that's used in production by hundreds of companies. Come and hear our war
-    stories, laugh about all the mistakes we’ve made along the way, and learn what Terraform, Packer, Docker, and Go
-    look like in the wild.
-  call_to_action: "Check out the video, slides, and blog post!"
-- id: "terraform-modules-talk"
-  url: "https://www.ybrikman.com/writing/2017/10/13/reusable-composable-battle-tested-terraform-modules/"
-  title: How to Build Reusable, Composable, Battle-tested Terraform Modules
-  date: "October 12, 2017"
-  image: "terraform-modules-talk.png"
-  description: |
-    This is my talk from HashiConf 2017 where I introduce the work we've been doing at Gruntwork with Terraform Modules.
-    I explain how modules work, how to design modules so they are highly configurable and reusable, and how to write
-    automated tests for your Terraform code. Most importanly, I show you how you can use modules to build your entire
-    tech stack on top of proven, battle-tested infrastructure code—in minutes.
-  call_to_action: "Check out the video and slides!"
-- id: "terraform-training-velocity"
-  url: "https://conferences.oreilly.com/velocity/vl-ny/public/schedule/detail/62024"
-  title: Terraform training at Velocity Conference
-  date: "October 1, 2017"
-  image: "terraform-training.jpg"
-  description: |
-    I'll be running a 2-day training course at Velocity Conference in NYC. Learn Terraform through real-world examples:
-    deploy servers, DBs, and load balancers on AWS; build immutable infrastructure with Docker and Packer;
-    put it all together in a continuous delivery pipeline.
-  call_to_action: "Sign up for the course today!"
-- id: "why-terraform"
-  url: "https://www.oreilly.com/learning/why-use-terraform"
-  title: |
-    Why Use Terraform?
-  date: "May 2, 2017"
-  image: "stratosphere.jpg"
-  description: |
-    Learn what Terraform does, and how it compares to Chef, Puppet, Ansible, CloudFormation, and other tools.
-  call_to_action: "Read the article on O'Reilly Radar"
+#- id: "2nd-edition-early-release"
+#  url: "https://learning.oreilly.com/library/view/docker-up/9781492036722/"
+#  title: |
+#    Early release of <em>Terraform: Up & Running</em>, 2nd edition!
+#  date: "July 5, 2019"
+#  image: "terraform_up&running_2e_cover_early_release_small.png"
+#  description: |
+#    The early release of <em>Terraform: Up & Running</em>, 2nd edition, is now available! The 2nd edition is nearly
+#    double the length of the 1st edition (~160 more pages), including two completely new chapters (Production-grade
+#    Terraform Code and How to Test Terraform Code), and major changes to all the original chapters and code examples to
+#    take into account 4 major Terraform releases (everything is now updated through Terraform 0.12), the Terraform
+#    state revamp (including backends, locking, and workspaces), Terraform providers split, Terraform Registry, HCL2,
+#    and much more. Check out Terraform: Up & Running, 2nd edition announcement blog post for all the details!
+#  call_to_action: "Read the Early Release now!"
+#- id: "korean-translation"
+#  url: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=186874171"
+#  title: |
+#    <em>Terraform: Up & Running</em> has been translated into Korean!
+#  date: "April 27, 2019"
+#  image: "terraform-up-and-running-cover-korean-small.jpg"
+#  description: |
+#    <em>Terraform: Up & Running</em> is now available in Korean!
+#  call_to_action: "Grab a copy on aladin.co.kr!"
+#- id: "lessons-learned-300k-talk"
+#  url: "https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1"
+#  title: Lessons learned from writing over 300,000 lines of infrastructure code
+#  date: "October 24, 2018"
+#  image: "lessons-learned-300k.png"
+#  description: |
+#    This talk from HashiConf 2018 is a concise masterclass on how to write infrastructure code. I share key lessons
+#    from the "Infrastructure Cookbook" we developed at Gruntwork while creating and maintaining a library of over
+#    300,000 lines of infrastructure code that's used in production by hundreds of companies. Come and hear our war
+#    stories, laugh about all the mistakes we’ve made along the way, and learn what Terraform, Packer, Docker, and Go
+#    look like in the wild.
+#  call_to_action: "Check out the video, slides, and blog post!"
+#- id: "terraform-modules-talk"
+#  url: "https://www.ybrikman.com/writing/2017/10/13/reusable-composable-battle-tested-terraform-modules/"
+#  title: How to Build Reusable, Composable, Battle-tested Terraform Modules
+#  date: "October 12, 2017"
+#  image: "terraform-modules-talk.png"
+#  description: |
+#    This is my talk from HashiConf 2017 where I introduce the work we've been doing at Gruntwork with Terraform Modules.
+#    I explain how modules work, how to design modules so they are highly configurable and reusable, and how to write
+#    automated tests for your Terraform code. Most importanly, I show you how you can use modules to build your entire
+#    tech stack on top of proven, battle-tested infrastructure code—in minutes.
+#  call_to_action: "Check out the video and slides!"
+#- id: "terraform-training-velocity"
+#  url: "https://conferences.oreilly.com/velocity/vl-ny/public/schedule/detail/62024"
+#  title: Terraform training at Velocity Conference
+#  date: "October 1, 2017"
+#  image: "terraform-training.jpg"
+#  description: |
+#    I'll be running a 2-day training course at Velocity Conference in NYC. Learn Terraform through real-world examples:
+#    deploy servers, DBs, and load balancers on AWS; build immutable infrastructure with Docker and Packer;
+#    put it all together in a continuous delivery pipeline.
+#  call_to_action: "Sign up for the course today!"
+#- id: "why-terraform"
+#  url: "https://www.oreilly.com/learning/why-use-terraform"
+#  title: |
+#    Why Use Terraform?
+#  date: "May 2, 2017"
+#  image: "stratosphere.jpg"
+#  description: |
+#    Learn what Terraform does, and how it compares to Chef, Puppet, Ansible, CloudFormation, and other tools.
+#  call_to_action: "Read the article on O'Reilly Radar"
 - id: "published"
   url: "#buy-now"
   title: |
-    <em>Terraform: Up & Running</em> is published!
-  date: "March 22, 2017"
-  image: "terraform-up-and-running-cover-medium.jpg"
+    <em>Docker: Up & Running</em> is updated to include Docker 1.10!
+  date: "June 2016"
+  image: "docker-up-and-running-cover-1_5e-medium.jpg"
   description: |
-    The final version of <em>Terraform: Up & Running</em> has been published and the ebook and print edition are now
+    The update version of <em>Terraform: Up & Running</em> has been published and the ebook and print edition are now
+    available online and in your local bookstores! Includes coverage of new features included in Docker 1.10.
+  call_to_action: "Get a copy!"
+- id: "published"
+  url: "#buy-now"
+  title: |
+    <em>Docker: Up & Running</em> is published!
+  date: "June 2015"
+  image: "docker-up-and-running-cover-1e-medium.jpg"
+  description: |
+    The official release of <em>Docker: Up & Running</em> has been published and the ebook and print edition are now
     available online and in your local bookstores!
-  call_to_action: "Get your copy now!"
-- id: "early-release"
-  url: "http://shop.oreilly.com/product/0636920061939.do"
-  title: "Early Release"
-  date: "November 14, 2016"
-  image: "terraform-up-and-running-cover-early-release-news.jpg"
-  description: |
-    The early release of <em>Terraform: Up & Running</em> is now available! Grab a copy of the ebook before the final
-    version is done so you can start learning today. You'll receive new chapters and updates as they are written,
-    plus the final ebook bundle when the book is released.
-  call_to_action: "Get your copy at the O'Reilly Store"
-- id: "intro-to-terraform"
-  url: "http://www.slideshare.net/brikis98/an-intro-to-docker-terraform-and-amazon-ecs"
-  title: "An intro to Docker, Terraform, and Amazon ECS"
-  date: "October 26, 2016"
-  image: "quick-intro-docker-terraform-ecs.png"
-  description: |
-    This talk is a very quick intro to Docker, Terraform, and Amazon's EC2 Container Service (ECS). In just 15 minutes,
-    you'll see how to take two apps (a Rails frontend and a Sinatra backend), package them as Docker containers, run
-    them using Amazon ECS, and to define all of the infrastructure-as-code using Terraform.
-  call_to_action: "See the presentation on SlideShare"
+  call_to_action: "Get a copy!"
+#- id: "intro-to-terraform"
+#  url: "http://www.slideshare.net/brikis98/an-intro-to-docker-terraform-and-amazon-ecs"
+#  title: "An intro to Docker, Terraform, and Amazon ECS"
+#  date: "October 26, 2016"
+#  image: "quick-intro-docker-terraform-ecs.png"
+#  description: |
+#    This talk is a very quick intro to Docker, Terraform, and Amazon's EC2 Container Service (ECS). In just 15 minutes,
+#    you'll see how to take two apps (a Rails frontend and a Sinatra backend), package them as Docker containers, run
+#    them using Amazon ECS, and to define all of the infrastructure-as-code using Terraform.
+#  call_to_action: "See the presentation on SlideShare"

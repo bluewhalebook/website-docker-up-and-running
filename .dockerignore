@@ -3,6 +3,7 @@
 
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
+.bundle
 
 # Jekyll
 _site/
@@ -10,11 +11,6 @@ _site/
 
 # OS X
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Vagrant
-.vagrant
 
 # Git
 .git

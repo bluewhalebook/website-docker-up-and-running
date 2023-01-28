@@ -154,7 +154,7 @@
   date: "June 2016"
   image: "docker-up-and-running-cover-1_5e-medium.jpg"
   description: |
-    The update version of <em>Terraform: Up & Running</em> has been published and the ebook and print edition are now
+    The update version of <em>Docker: Up & Running</em> has been published and the ebook and print edition are now
     available online and in your local bookstores! Includes coverage of new features included in Docker 1.10.
   call_to_action: "Get a copy!"
 - id: "published"

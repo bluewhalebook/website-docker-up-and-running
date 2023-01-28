@@ -74,7 +74,7 @@
 - id: "2nd-edition-published"
   url: "#buy-now"
   title: |
-    <em>Terraform: Up & Running</em>, 2nd edition has been published!
+    <em>Docker: Up & Running</em>, 2nd edition has been published!
   date: "September 2018"
   image: "docker-up-and-running-cover-2e-medium.jpg"
   description: |

@@ -63,11 +63,10 @@
   description: |
     A deep dive into Linux control group, namespaces, security, networking, and storage.
 
-- title: The Future of Docker
+- title: The Expanding Landscape
   icon: clock-o
   description: |
-    A short discussion about Docker's place in the modern ecosystem and a review of some of the alternative tools that
-    that user's might find useful supplements to their workflows.
+    A short review of some of the alternative tools that user's might find useful supplements to their workflows.
 
 - title: Container Platform Design
   icon: image

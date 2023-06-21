@@ -1,16 +1,16 @@
-#- id: "3rd-edition-published"
-#  url: "#buy-now"
-#  title: |
-#    <em>Docker: Up & Running</em>, 3rd edition, has been published!
-#  date: "September 26, 2022"
-#  image: "docker-up-and-running-cover-3e-early-release-small.jpg"
-#  description: |
-#    <em>Docker: Up & Running</em>, 3rd edition, has been published! It's available on Amazon, O'Reilly, and at all
-#    major bookstores. The 3rd edition adds about 100 pages of new content, including two totally new chapters (one on
-#    secrets management with Docker and one on working with multiple regions, accounts, and clouds, including
-#    Kubernetes), plus major updates to all the existing chapters to update the book from Docker 0.12 to
-#    Terraform 1.2.
-#  call_to_action: "Get the 3rd edition now!"
+- id: "3rd-edition-published"
+  url: "#buy-now"
+  title: |
+    <em>Docker: Up & Running</em>, 3rd edition, has been published!
+  date: "April 2023"
+  image: "docker-up-and-running-cover-3e-small.jpg"
+  description: |
+    <em>Docker: Up & Running</em>, 3rd edition, has been published! It's available on Amazon, O'Reilly, and at all
+    major bookstores. The 3rd edition includes one completely new chapter, 3 important new sections
+    (buildkit, buildx, and rootless containers), and major updates to all of the original chapters.
+    The book coverage has been updated from Docker Engine 18.09 to Docker Engine 20.10, covering all the important
+    changes in between.
+  call_to_action: "Get the 3rd edition now!"
 - id: "3rd-edition-early-release"
   url: "https://learning.oreilly.com/library/view/docker-up/9781098131814/"
   title: |

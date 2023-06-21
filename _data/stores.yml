@@ -15,22 +15,22 @@
   value: 20
 - id: "target"
   name: "Target"
-  url: "https://www.target.com/p/docker-up-running-2nd-edition-by-sean-p-kane-karl-matthias-paperback/-/A-83283903"
+  url: "https://www.target.com/p/docker-up-running-3rd-edition-by-sean-kane-karl-matthias-paperback/-/A-88116706"
   image: "target-small.png"
   value: 20
 - id: "apple"
   name: "Apple Books"
-  url: "https://books.apple.com/us/book/docker-up-running/id1435967628"
+  url: "https://books.apple.com/us/book/docker-up-running/id6447706829"
   image: "itunes-logo-small.png"
   value: 20
 - id: "whsmith"
   name: "WHSmith"
-  url: "https://www.whsmith.co.uk/products/docker-up-and-running-shipping-reliable-containers-in-production-2nd-edition/sean-p-kane/karl-matthias/paperback/9781492036739.html"
+  url: "https://www.whsmith.co.uk/products/docker--up-and-running-shipping-reliable-containers-in-production-3rd-revised-edition/sean-p-kane/karl-matthias/paperback/9781098131821.html"
   image: "wh-smith-logo-small.png"
   value: 20
 - id: "shroff"
   name: "Shroff Publishers (India)"
-  url: "https://www.shroffpublishers.com/books/9789352137732/"
+  url: "https://www.shroffpublishers.com/books/9789355423955/"
   image: "shroff-publishers-small.jpg"
   value: 20
 

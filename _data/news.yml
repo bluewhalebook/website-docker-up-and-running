@@ -1,3 +1,14 @@
+- id: "3rd-edition-german-translation"
+  url: "#buy-now"
+  title: |
+    <em>Docker: Up & Running</em>, 3rd edition, has been translated into German!
+  date: "February 2024"
+  image: "docker-up-and-running-cover-3e-GERMAN-small.jpg"
+  description: |
+    <em>Docker: Up & Running</em>, 3rd edition, has been translated into German by Thoman Demmig and
+    sold in partnership with [dpunkt](https://dpunkt.de/)! It's available from [Amazon](https://amzn.eu/d/3Rgs7d8),
+    [dpunkt.verlag | O'Reilly](https://dpunkt.de/produkt/praxiswissen-docker/), and at all major German bookstores.
+  call_to_action: "Get the 3rd edition in German now!"
 - id: "3rd-edition-published"
   url: "#buy-now"
   title: |

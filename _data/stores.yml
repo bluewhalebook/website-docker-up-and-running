@@ -28,6 +28,11 @@
   url: "https://www.whsmith.co.uk/products/docker--up-and-running-shipping-reliable-containers-in-production-3rd-revised-edition/sean-p-kane/karl-matthias/paperback/9781098131821.html"
   image: "wh-smith-logo-small.png"
   value: 20
+- id: "dpunkt"
+  name: "dpunkt.verlag|O'Reilly (Germany)"
+  url: "https://dpunkt.de/produkt/praxiswissen-docker/"
+  image: "dpunkt-oreilly-small.png"
+  value: 20
 - id: "shroff"
   name: "Shroff Publishers (India)"
   url: "https://www.shroffpublishers.com/books/9789355423955/"
